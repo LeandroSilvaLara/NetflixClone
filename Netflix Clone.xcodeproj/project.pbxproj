@@ -21,6 +21,7 @@
 		E6B4D61B2920F74800AC576F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4D61A2920F74800AC576F /* APICaller.swift */; };
 		E6B4D61D2921012700AC576F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4D61C2921012700AC576F /* Movie.swift */; };
 		E6B4D61F2921064200AC576F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4D61E2921064200AC576F /* Extensions.swift */; };
+		E6B4D62129214C1700AC576F /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B4D62029214C1700AC576F /* Tv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E6B4D61A2920F74800AC576F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICaller.swift; path = "Netflix Clone/Views/APICaller.swift"; sourceTree = SOURCE_ROOT; };
 		E6B4D61C2921012700AC576F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = "Netflix Clone/Views/Movie.swift"; sourceTree = SOURCE_ROOT; };
 		E6B4D61E2921064200AC576F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Netflix Clone/Views/Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		E6B4D62029214C1700AC576F /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tv.swift; path = "Netflix Clone/Views/Tv.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				E6B4D61C2921012700AC576F /* Movie.swift */,
+				E6B4D62029214C1700AC576F /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				E65882CC2915537100DCA9E7 /* SceneDelegate.swift in Sources */,
 				E65882E12915572400DCA9E7 /* UpcomingViewController.swift in Sources */,
 				E6B4D61D2921012700AC576F /* Movie.swift in Sources */,
+				E6B4D62129214C1700AC576F /* Tv.swift in Sources */,
 				E65882DF291556D800DCA9E7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
