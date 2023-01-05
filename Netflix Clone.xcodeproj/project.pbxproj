@@ -20,6 +20,8 @@
 		E6651802296753D6008F8E9C /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6651801296753D6008F8E9C /* SearchResultsTableViewCell.swift */; };
 		E665180629675ED7008F8E9C /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E665180529675ED7008F8E9C /* YoutubeSearchResponse.swift */; };
 		E66518082967624E008F8E9C /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66518072967624E008F8E9C /* TitlePreviewViewController.swift */; };
+		E665180A29676E28008F8E9C /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E665180929676E28008F8E9C /* DataPersistenceManager.swift */; };
+		E665180C29676E41008F8E9C /* PersistanceDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E665180B29676E41008F8E9C /* PersistanceDataManager.swift */; };
 		E67874672916E77D007E9109 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67874662916E77D007E9109 /* CollectionViewTableViewCell.swift */; };
 		E6881B9129649CA9008D2CBD /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6881B9029649CA9008D2CBD /* TitleTableViewCell.swift */; };
 		E6881B932964CCAC008D2CBD /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6881B922964CCAC008D2CBD /* TitleViewModel.swift */; };
@@ -48,6 +50,8 @@
 		E6651801296753D6008F8E9C /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
 		E665180529675ED7008F8E9C /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YoutubeSearchResponse.swift; path = "Netflix Clone/Controllers/YoutubeSearchResponse.swift"; sourceTree = SOURCE_ROOT; };
 		E66518072967624E008F8E9C /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		E665180929676E28008F8E9C /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataPersistenceManager.swift; path = "Netflix Clone/Controllers/General/DataPersistenceManager.swift"; sourceTree = SOURCE_ROOT; };
+		E665180B29676E41008F8E9C /* PersistanceDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistanceDataManager.swift; path = "Netflix Clone/Controllers/General/PersistanceDataManager.swift"; sourceTree = SOURCE_ROOT; };
 		E67874662916E77D007E9109 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		E6881B9029649CA9008D2CBD /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		E6881B922964CCAC008D2CBD /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TitleViewModel.swift; path = "Netflix Clone/Views/TitleViewModel.swift"; sourceTree = SOURCE_ROOT; };
@@ -168,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				E6B4D61A2920F74800AC576F /* APICaller.swift */,
+				E665180929676E28008F8E9C /* DataPersistenceManager.swift */,
+				E665180B29676E41008F8E9C /* PersistanceDataManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E665180C29676E41008F8E9C /* PersistanceDataManager.swift in Sources */,
 				E6881B9129649CA9008D2CBD /* TitleTableViewCell.swift in Sources */,
 				E65882E32915575F00DCA9E7 /* SearchViewController.swift in Sources */,
 				E6651802296753D6008F8E9C /* SearchResultsTableViewCell.swift in Sources */,
@@ -266,6 +273,7 @@
 				E6B4D61B2920F74800AC576F /* APICaller.swift in Sources */,
 				E6881B952964CD3A008D2CBD /* TitlePreviewViewModel.swift in Sources */,
 				E6105B5D291B675B00CDA891 /* HeroHeaderUIView.swift in Sources */,
+				E665180A29676E28008F8E9C /* DataPersistenceManager.swift in Sources */,
 				E66518082967624E008F8E9C /* TitlePreviewViewController.swift in Sources */,
 				E65882E6291557B300DCA9E7 /* DownloadsViewController.swift in Sources */,
 				E65882CA2915537100DCA9E7 /* AppDelegate.swift in Sources */,
