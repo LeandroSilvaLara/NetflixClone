@@ -39,7 +39,7 @@
 		E65882C62915537100DCA9E7 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65882C92915537100DCA9E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E65882CB2915537100DCA9E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E65882CD2915537100DCA9E7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		E65882CD2915537100DCA9E7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabBarViewController.swift; path = ../../MainTabBarViewController.swift; sourceTree = "<group>"; };
 		E65882D22915537200DCA9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E65882D52915537200DCA9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E65882D72915537200DCA9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +102,6 @@
 				E65882DD2915568400DCA9E7 /* Controllers */,
 				E65882C92915537100DCA9E7 /* AppDelegate.swift */,
 				E65882CB2915537100DCA9E7 /* SceneDelegate.swift */,
-				E65882CD2915537100DCA9E7 /* MainTabBarViewController.swift */,
 				E65882D22915537200DCA9E7 /* Assets.xcassets */,
 				E65882D42915537200DCA9E7 /* LaunchScreen.storyboard */,
 				E65882D72915537200DCA9E7 /* Info.plist */,
@@ -122,6 +121,7 @@
 		E6651803296753F9008F8E9C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E65882CD2915537100DCA9E7 /* MainTabBarViewController.swift */,
 				E65882DE291556D800DCA9E7 /* HomeViewController.swift */,
 				E65882E02915572400DCA9E7 /* UpcomingViewController.swift */,
 				E65882E22915575F00DCA9E7 /* SearchViewController.swift */,
