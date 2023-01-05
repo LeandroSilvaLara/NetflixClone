@@ -19,7 +19,7 @@ class SearchViewController: UIViewController {
     }()
     
     private let searchController: UISearchController = {
-        let controller = UISearchController(searchResultsController: SearchResultsViewController())
+        let controller = UISearchController(searchResultsController: SearchResultsTableViewCell())
         controller.searchBar.placeholder = "Search for a Movie or a Tv show"
         controller.searchBar.searchBarStyle = .minimal
         return controller
@@ -108,7 +108,7 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
             switch result {
             case .success(let videoElement):
                 DispatchQueue.main.async {
-                    let vc = TitlePreviewViewController()
+                    let vc =  TitlePreviewViewController()
                     vc.configure(with: TitlePreviewViewModel(title: titleName, youtubeView: videoElement, titleOverview: title.overview ?? ""))
                     self?.navigationController?.pushViewController(vc, animated: true)
                 }
