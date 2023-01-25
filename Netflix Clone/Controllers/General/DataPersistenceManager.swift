@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 import CoreData
 
-
 class DataPersistenceManager {
     
     enum DatabasError: Error {
