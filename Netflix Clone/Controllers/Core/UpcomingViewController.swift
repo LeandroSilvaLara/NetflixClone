@@ -72,7 +72,7 @@ extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         let title = titles[indexPath.row]
-        cell.configure(with: TitleViewModel(titleName: (title.original_titles ?? title.original_name) ?? "Unknown title name", posterURL: title.poster_path ?? ""))
+        cell.configure(with: TitleViewModel(titleName: (title.original_title ?? title.original_name) ?? "Unknown title name", posterURL: title.poster_path ?? ""))
         return cell
     }
     
@@ -87,7 +87,7 @@ extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
         
         let title = titles[indexPath.row]
         
-        guard let titleName = title.original_titles ?? title.original_name else {
+        guard let titleName = title.original_title ?? title.original_name else {
             return
         }
         

@@ -83,7 +83,7 @@ class SearchViewController: UIViewController {
             
             
             let title = titles[indexPath.row]
-            let model = TitleViewModel(titleName: title.original_name ?? title.original_titles ?? "Unknown name", posterURL: title.poster_path ?? "")
+            let model = TitleViewModel(titleName: title.original_name ?? title.original_title ?? "Unknown name", posterURL: title.poster_path ?? "")
             cell.configure(with: model)
             
             return cell;
@@ -99,7 +99,7 @@ class SearchViewController: UIViewController {
             
             let title = titles[indexPath.row]
             
-            guard let titleName = title.original_titles ?? title.original_name else {
+            guard let titleName = title.original_title ?? title.original_name else {
                 return
             }
             
