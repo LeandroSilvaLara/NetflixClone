@@ -11,7 +11,6 @@ struct TrendingTitleResponse: Codable {
     let results: [Title]
 }
 
-
 struct Title: Codable {
     let id: Int
     let media_type: String?
@@ -23,3 +22,4 @@ struct Title: Codable {
     let release_date: String?
     let vote_average: Double
 }
+
